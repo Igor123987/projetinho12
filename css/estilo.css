@@ -1,0 +1,564 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+}
+
+.img{
+    height: 150px;
+    position: relative;
+    top: 60px;
+
+}
+
+.b{
+    background-color: aliceblue;
+    position: relative;
+    left: 1560px;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: rgb(18, 18, 192);
+    height: 35px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.b:hover{
+    box-shadow: 1px 1px 5px 5px rgb(15, 15, 214);
+    transform: scale(1.2);
+}
+
+
+.t{
+    text-decoration: none;
+    background-color: transparent;
+}
+.div ul{
+    position: relative;
+    left: 1500px;
+    top: 30px;
+    display: flex;
+    gap: 35px;
+}
+
+.div ul li {
+    list-style-type: none;
+    color: aliceblue;
+}
+
+.div ul li:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.bux{
+    position: relative;
+    top: 200px;
+}
+
+.p1{
+    position: relative;
+    left: 390px;
+    top: -20px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(212, 212, 212);
+}
+
+.p2{
+    position: relative;
+    top: -47px;
+    left: 438px;
+    font-size: 20px;
+    background-color: transparent;
+    color: rgb(24, 36, 204);
+    font-weight: bolder;
+}
+
+.p3{
+    position: relative;
+    left: 388px;
+    top: -32px;
+    color: aliceblue;
+    font-size: 40px;
+    width: 400px;
+    font-weight: bolder;
+}
+
+.p4{
+    position: relative;
+    left: 388px;
+    top: -32px;
+    color: aliceblue;
+    font-size: 35px;
+    width: 400px;
+    font-weight: bolder;
+}
+
+.p5{
+    position: relative;
+    left: 388px;
+    top: -38px;
+    color: aliceblue;
+    font-size: 16px;
+    width: 400px;
+    font-weight: bolder;
+}
+
+.img2{
+    height: 500px;
+    position: relative;
+    top: -300px;
+    left: 500px;
+}
+
+.container {
+    position: relative;
+    top: -200px;
+    
+}
+
+
+.beautiful-box {
+    position: relative;
+    margin-top: -180px;
+    margin-left: 80px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #292924, #2e10da); /* Gradiente de fundo */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra */
+    overflow: hidden; /* Para garantir que o conteúdo não saia da caixa */
+    text-align: center;
+    color: white;
+    padding: 20px;
+    animation: move 5s infinite alternate; /* Animação */
+}
+
+.beautiful-box img {
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -40px;
+    border-radius: 20px 20px 0 0; /* Bordas arredondadas só na parte superior */
+}
+
+.beautiful-box p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+@keyframes move {
+    0% {
+        top: 0px; /* Posição inicial */
+        right: 0px;
+    }
+    50% {
+        top: 50px; /* Posição intermediária */
+        right: 50px;
+    }
+    100% {
+        top: 0px; /* Posição final */
+        right: 0px;
+    }
+}
+
+.caixa{
+    color: rgb(184, 171, 171);
+    position: relative;
+    top: -400px;
+    left: 1400px;
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px rgba(15, 42, 196, 0.664) ;
+    transition: transform 0.3s ease;
+}
+
+.caixa:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 5px 5px rgb(43, 179, 43);
+    cursor: pointer;
+}
+
+.trofeu{
+position: relative;
+top: 20px;
+left: 20px;
+height: 50px;
+}
+
+.ps{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -25px;
+    background-color: transparent;
+    font-weight: bolder;
+}
+
+.ps2{
+    position: relative;
+    top: 15px;
+    left: 5px;
+    background-color: transparent;
+}
+
+.caixa2{
+    color: rgb(184, 171, 171);
+    position: relative;
+    top: -350px;
+    left: 1400px;
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px rgb(19, 46, 199) ;
+    transition: transform 0.3s ease;
+}
+
+.caixa2:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 5px 5px rgb(43, 179, 43);
+    cursor: pointer;
+}
+
+.dimg{
+    position: relative;
+top: 20px;
+left: 30px;
+height: 50px;
+}
+
+.cs{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -25px;
+    background-color: transparent;
+    font-weight: bolder;
+}
+
+.cs2 ul  { 
+    position: relative;
+    top: 20px;
+    
+}
+
+.ampulheta{
+    width: 25px;
+    background-color: transparent;
+    position: relative;
+    left: 180px;
+}
+
+.modelViewPort {
+    /* The black circle background around the model*/
+    perspective: 1000px;
+    width: 20rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    overflow: hidden;
+  }
+  .eva {
+    --EVA-ROTATION-DURATION: 4s;
+    transform-style: preserve-3d;
+    animation: rotateRight var(--EVA-ROTATION-DURATION) linear infinite alternate;
+  }
+  .head {
+    position: relative;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 48% 53% 45% 55% / 79% 79% 20% 22%;
+    background: linear-gradient(to right, white 45%, gray);
+  }
+  .eyeChamber {
+    width: 4.5rem;
+    height: 2.75rem;
+    position: relative;
+    left: 50%;
+    top: 55%;
+    border-radius: 45% 53% 45% 48% / 62% 59% 35% 34%;
+    background-color: #0c203c;
+    box-shadow: 0px 0px 2px 2px white, inset 0px 0px 0px 2px black;
+    transform: translate(-50%, -50%);
+    animation: moveRight var(--EVA-ROTATION-DURATION) linear infinite alternate;
+  }
+  .eye {
+    width: 1.2rem;
+    height: 1.5rem;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .eye:first-child {
+    left: 12px;
+    top: 50%;
+    background: repeating-linear-gradient(
+      65deg,
+      #9bdaeb 0px,
+      #9bdaeb 1px,
+      white 2px
+    );
+    box-shadow: inset 0px 0px 5px #04b8d5, 0px 0px 15px 1px #0bdaeb;
+    transform: translate(0, -50%) rotate(-65deg);
+  }
+  .eye:nth-child(2) {
+    right: 12px;
+    top: 50%;
+    background: repeating-linear-gradient(
+      -65deg,
+      #9bdaeb 0px,
+      #9bdaeb 1px,
+      white 2px
+    );
+    box-shadow: inset 0px 0px 5px #04b8d5, 0px 0px 15px 1px #0bdaeb;
+    transform: translate(0, -50%) rotate(65deg);
+  }
+  .body {
+    width: 6rem;
+    height: 8rem;
+    position: relative;
+    margin-block-start: 0.25rem;
+    border-radius: 47% 53% 45% 55% / 12% 9% 90% 88%;
+    background: linear-gradient(to right, white 35%, gray);
+  }
+  .hand {
+    position: absolute;
+    left: -1.5rem;
+    top: 0.75rem;
+    width: 2rem;
+    height: 5.5rem;
+    border-radius: 40%;
+    background: linear-gradient(to left, white 15%, gray);
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.25);
+    transform: rotateY(55deg) rotateZ(10deg);
+  }
+  .hand:first-child {
+    animation: compensateRotation var(--EVA-ROTATION-DURATION) linear infinite
+      alternate;
+  }
+  .hand:nth-child(2) {
+    left: 92%;
+    background: linear-gradient(to right, white 15%, gray);
+    transform: rotateY(55deg) rotateZ(-10deg);
+    animation: compensateRotationRight var(--EVA-ROTATION-DURATION) linear
+      infinite alternate;
+  }
+  .scannerThing {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    border-top: 180px solid #9bdaeb;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    transform-origin: top left;
+    mask: linear-gradient(to right, white, transparent 35%);
+    animation: glow 2s cubic-bezier(0.86, 0, 0.07, 1) infinite;
+  }
+  .scannerOrigin {
+    position: absolute;
+    width: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    left: 60%;
+    top: 10%;
+    background: #9bdaeb;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+    animation: moveRight var(--EVA-ROTATION-DURATION) linear infinite;
+  }
+  @keyframes rotateRight {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(25deg);
+    }
+  }
+  @keyframes moveRight {
+    from {
+      transform: translate(-50%, -50%);
+    }
+    to {
+      transform: translate(-40%, -50%);
+    }
+  }
+  @keyframes compensateRotation {
+    from {
+      transform: rotateY(55deg) rotateZ(10deg);
+    }
+    to {
+      transform: rotatey(30deg) rotateZ(10deg);
+    }
+  }
+  @keyframes compensateRotationRight {
+    from {
+      transform: rotateY(55deg) rotateZ(-10deg);
+    }
+    to {
+      transform: rotateY(70deg) rotateZ(-10deg);
+    }
+  }
+  @keyframes glow {
+    from {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    45% {
+      transform: rotate(-25deg);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .loader{
+    margin-top: -900px;
+    margin-left: 900px;
+  }
+
+  @media (max-width: 1350px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    .img{
+      height: 110px;
+      margin-top: -40px;
+    }
+
+    .b{
+      margin-left: -1420px;
+    }
+
+    .main{
+      margin-top: -100px;
+    }
+
+    .bux{
+      margin-left: -100px;
+    }
+
+    .beautiful-box{
+      position: sticky;
+      margin-left: 0;
+      width: 200px;
+    }
+
+    .p1{
+      font-size: 16px;
+    }
+
+    .p2{
+      font-size: 16px;
+      margin-top: 6px;
+      margin-left: -8px;
+    }
+
+    .p3{
+      font-size: 32px;
+    }
+
+    .p4{
+      font-size: 32px;
+
+    }
+
+    .loader{
+      position: relative;
+      top: -97px;
+      right: 450px;
+      background-color: transparent;
+    }
+
+    .caixa{
+      margin-left: -570px;
+      height: 280px;
+    }
+    
+    .trofeu{
+      height: 34px;
+    }
+
+    .caixa2{
+      margin-left: -570px;
+      height: 200px;
+    }
+
+    .cs2{
+      margin-left: 40px;
+    }
+
+    .ampulheta{
+      margin-left: -50px;
+    }
+  }
+
+  @media (max-width: 896px) {
+    *{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .img{
+      height: 50px;
+      margin-left: 10px;
+    }
+
+    .b{
+    position: relative;
+    top: 1000px;
+    }
+
+    .bux{
+      margin-top: 300px;
+      margin-left: -380px;
+    }
+
+    .beautiful-box{
+      margin-top: -500px;
+    }
+
+    .loader{
+      margin-top: 300px;
+      margin-left: 3px;
+    }
+
+    .caixa{
+      margin-left: -1400px;
+      margin-top: 900px;
+    }
+
+    .caixa:hover{
+      transform: none;
+    }
+
+    .caixa2{
+      margin-left: -1400px;
+    }
+
+    .caixa2:hover{
+      transform: none;
+    }
+
+  }
+
+  
